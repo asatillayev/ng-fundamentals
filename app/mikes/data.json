@@ -1,0 +1,156 @@
+[
+    {
+        "channel": {
+            "title": "My Apis",
+            "link": "../../atmosphere#/user/user21743.open/apis",
+            "description": "List of apis by user",
+            "item": [
+                {
+                    "title": "FirstApi_title",
+                    "description": "FirstApi_desc",
+                    "category": [
+                        {
+                            "value": "api",
+                            "domain": "uddi:soa.com:resourcetype"
+                        },
+                        {
+                            "value": "Public",
+                            "domain": "uddi:soa.com:visibility"
+                        }
+                    ],
+                    "guid": {
+                        "value": "api25418.open"
+                    },
+                    "pubDate": "Sun, 07 Jul 2013 00:58:47 +0000",
+                    "Rating": 0.0,
+                    "Followers": 0,
+                    "Image": {
+                        "Url": "https://open.soa.com/api/apis/api25418.open/avatar"
+                    },
+                    "EntityReferences": {
+                        "EntityReference": [
+                            {
+                                "Title": "aedasd (dasda)",
+                                "Guid": "apiversion25420.open",
+                                "Category": [
+                                    {
+                                        "value": "apiversion",
+                                        "domain": "uddi:soa.com:resourcetype"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "EntityReference": {
+                        "Title": "aedasd (dasda)",
+                        "Guid": "apiversion25420.open",
+                        "Category": [
+                            {
+                                "value": "apiversion",
+                                "domain": "uddi:soa.com:resourcetype"
+                            }
+                        ]
+                    },
+                    "Connections": 0
+                },
+                {
+                    "title": "SecondApi_title",
+                    "description": "SecondApi_ desc",
+                    "category": [
+                        {
+                            "value": "api",
+                            "domain": "uddi:soa.com:resourcetype"
+                        },
+                        {
+                            "value": "Public",
+                            "domain": "uddi:soa.com:visibility"
+                        }
+                    ],
+                    "guid": {
+                        "value": "api23052.open"
+                    },
+                    "pubDate": "Wed, 08 May 2013 00:15:18 +0000",
+                    "Rating": 0.0,
+                    "Followers": 0,
+                    "Image": {
+                        "Url": "https://open.soa.com/api/apis/api23052.open/avatar"
+                    },
+                    "EntityReferences": {
+                        "EntityReference": [
+                            {
+                                "Title": "FirstApi (1.0)",
+                                "Guid": "apiversion23054.open",
+                                "Category": [
+                                    {
+                                        "value": "apiversion",
+                                        "domain": "uddi:soa.com:resourcetype"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "EntityReference": {
+                        "Title": "FirstApi (1.0)",
+                        "Guid": "apiversion23054.open",
+                        "Category": [
+                            {
+                                "value": "apiversion",
+                                "domain": "uddi:soa.com:resourcetype"
+                            }
+                        ]
+                    },
+                    "Connections": 0
+                },
+                {
+                    "title": "ThirdApi_title",
+                    "description": "ThirdtApi_desc",
+                    "category": [
+                        {
+                            "value": "api",
+                            "domain": "uddi:soa.com:resourcetype"
+                        },
+                        {
+                            "value": "Public",
+                            "domain": "uddi:soa.com:visibility"
+                        }
+                    ],
+                    "guid": {
+                        "value": "api23055.open"
+                    },
+                    "pubDate": "Wed, 08 May 2013 00:15:22 +0000",
+                    "Rating": 0.0,
+                    "Followers": 0,
+                    "Image": {
+                        "Url": "https://open.soa.com/api/apis/api23055.open/avatar"
+                    },
+                    "EntityReferences": {
+                        "EntityReference": [
+                            {
+                                "Title": "FirstApi (1.0)",
+                                "Guid": "apiversion23057.open",
+                                "Category": [
+                                    {
+                                        "value": "apiversion",
+                                        "domain": "uddi:soa.com:resourcetype"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "EntityReference": {
+                        "Title": "FirstApi (1.0)",
+                        "Guid": "apiversion23057.open",
+                        "Category": [
+                            {
+                                "value": "apiversion",
+                                "domain": "uddi:soa.com:resourcetype"
+                            }
+                        ]
+                    },
+                    "Connections": 0
+                }
+            ]
+        },
+        "version": "1.0"
+    }
+]
