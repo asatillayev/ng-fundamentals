@@ -6,7 +6,7 @@ eventsApp.controller('EditEventController',
 
         $scope.cancelEdit = function () {
 
-        }
+        };
         $scope.saveEvent = function (event, editForm) {
             console.log(" data " + angular.toJson(event));
             if(editForm.$valid) {
