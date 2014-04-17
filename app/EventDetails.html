@@ -18,18 +18,21 @@
         </div>
     </div>
     <div ng-controller="EventController" style="padding-left:20px; padding-right:20px">
+        <!--<div ng-bind-html="snippet"></div>-->
+        <!--<div ng-bind-html="snippetSafe"></div>-->
         <div id="me">
-            <img data-ng-src="{{ event.imageUrl }}" width="500" height="100" alt="{{event.name}}"/>
+            <img data-ng-src="{{ event.imageUrl }}" width="500" height="100" alt="{{event.name }}"/>
 
             <div class="row">
                 <div class="span11">
-                    <h2 ng-bind-template="{{ event.name }} {{ event.date }}"></h2>
+                    <h2 ng-bind-template="{{ event.name | uppercase }} {{ event.date }}"></h2>
                 </div>
             </div>
             <div clasqs="row">
                 <div class="span3">
-                    <div><strong>Date:</strong> {{ event.date }}</div>
+                    <div><strong>Date:</strong> {{ toJsDate(event.date) | date:'mediumDate' }}</div>
                     <div><strong>Time:</strong> {{ event.time }}</div>
+                    <div><strong>Currency:</strong> {{ 35.00500 | currency }}</div>
                 </div>
                 <div class="span4">
                     <address>
